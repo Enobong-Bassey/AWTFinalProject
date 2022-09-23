@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brains College - Contact</title>
+    <meta name="description" content="Brians College contact page has the address information and a drop message section">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="homepage.html">
+                  <span style="color: rgb(4, 92, 71)"><i class="fa-solid fa-user-graduate fa-3x" style="font-size: 1.6em;"></i></span>
+                  <span style="font-weight: 700; color: red;">Brains</span>
+                  <span style="font-weight: 700; color: rgb(4, 92, 71);"> College</span>
+                </a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="homepage.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li class="active"><a href="contacts.html">Contact</a></li>
+                </ul>
+              </div>              
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container">
+            <br><br>
+            <h1 style="color: rgb(34, 91, 224); font-size: 1.8em; font-weight: 700; text-align: left;">Contact us</h1>
+            <div class="row" id="contactDisplay">
+                <div class="col-sm-4" id="contactPic">
+                        <img src="HeadOffice.jpg" height="300px" width="300px" />
+                </div>
+                <div class="col-sm-4" id="contactAdd">
+                    <h2 style="margin-top: 0; font-size: medium; color: black; text-align: left;"><b>Campus Location</b></h2>
+                        <p class="address">44 Brains College Boulevard<br>
+                        Yellow City, British Columbia<br>
+                        V9G 1N5, Canada.</p>
+                      
+                      <br><br>
+                        <p class="address"><i class="fa-solid fa-phone"></i> +1 (647)-868-0974</p>
+                        <p class="address"><i class="fa-solid fa-envelope"></i> info@brainscollege.ca</p>
+                      
+                </div>
+                <div class="col-sm-4" id="dropNote">
+                    <h2 style="margin-top: 0; font-size: medium; color: black;"><b>Drop us a note</b></h2>
+                    <form action="" method="post" style="margin-top: 0;">
+                        <p>
+                            <input type="text" name="fullname" placeholder="Full name" required />
+                        </p>
+                        <p>
+                            <input type="text" name="email" placeholder="Email" required />
+                        </p>
+                        <p>
+                            <input type="text" name="subject" placeholder="Subject" required />
+                        </p>
+                        <p>
+                            <textarea type="text" rows="6" cols="25" name="message" placeholder="Message"></textarea>
+                        </p>
+                        <p>
+                            <input id="startbtn" type="submit" value="Submit" />
+                        </p> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/3278087be3.js" crossorigin="anonymous"></script>
+</body>
+</html>
